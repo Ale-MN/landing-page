@@ -1,5 +1,5 @@
 "use client";
-import { transitionVariantPage } from "@/utils/motion-transition";
+import { transitionVariantsPage } from "@/utils/motion-transition";
 import { AnimatePresence, motion } from "framer-motion";
 
 const TransitionPage = () => {
@@ -8,7 +8,7 @@ const TransitionPage = () => {
       <div>
         <motion.div
           className="fixed top-0 bottom-0 right-full w-screen z-30 bg-[#26626b]"
-          variants={transitionVariantPage}
+          variants={transitionVariantsPage}
           initial="initial"
           animate="animate"
           exit="exit"
