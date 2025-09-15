@@ -2,14 +2,11 @@ import {
   BookText,
   CodeSquare,
   HomeIcon,
-  UserRound,
   Linkedin,
-  Twitter,
   Crop,
   Pencil,
   Computer,
   Github,
-  Target,
 } from "lucide-react";
 
 export const socialNetworks = [
@@ -100,23 +97,22 @@ export const dataPortfolio = [
   {
     id: 1,
     title: "Lista de tareas",
-    image: "/image-1.jpg",
-    urlGithub: "#!",
+    image: "/listatareas.png",
+    urlGithub: "https://github.com/Ale-MN?tab=repositories",
     urlDemo: "https://listade-tareas-app.netlify.app/",
   },
   {
     id: 2,
-    title: "Buscador Peliculas",
-    image: "/image-2.jpg",
-    urlGithub: "#!",
+    title: "Buscador de Peliculas",
+    image: "/pelis.png",
+    urlGithub: "https://github.com/Ale-MN?tab=repositories",
     urlDemo: "https://buscadorpeliculas-react.netlify.app/",
   },
   {
     id: 3,
     title: "E-Commerce",
-    image: "/image-3.jpg",
+    image: "/ecommerce.png",
     urlGithub: "https://github.com/Ale-MN/e-commerceTWCSS",
     urlDemo: "https://ecommercetwcss.netlify.app/",
   },
-  
 ];
