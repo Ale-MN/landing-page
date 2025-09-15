@@ -2,6 +2,7 @@ import AvatarServices from "@/components/avatar-services";
 import CircleImage from "@/components/circle-image";
 import SliderServices from "@/components/slider-services";
 import TransitionPage from "@/components/transition-page";
+import Link from "next/link";
 
 const page = () => {
   return (
@@ -18,9 +19,11 @@ const page = () => {
             Desarrollo frontend utilizando, HTML, CSS, JavaScript-React,
             Tailwind.
           </p>
-          <button className="px-3 py-2 rounded-lg bg-amber-500 hover:bg-amber-500/65">
-            Contacta Conmigo
-          </button>
+          <Link href="/contacto">
+            <button className="px-3 py-2 rounded-lg bg-amber-500 cursor-pointer hover:bg-amber-500/65">
+              Contacta Conmigo
+            </button>
+          </Link>
         </div>
         <div className="">
           <SliderServices />

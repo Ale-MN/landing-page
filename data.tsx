@@ -30,13 +30,13 @@ export const itemsNavbar = [
     link: "/",
   },
   {
-    id: 3,
+    id: 2,
     title: "Book",
     icon: <BookText size={25} color="#fff" strokeWidth={1} />,
     link: "/services",
   },
   {
-    id: 4,
+    id: 3,
     title: "Target",
     icon: <CodeSquare size={25} color="#fff" strokeWidth={1} />,
     link: "/portfolio",
