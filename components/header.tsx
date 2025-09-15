@@ -1,5 +1,5 @@
 import Link from "next/link";
-import MotionTransition from "./transition-component";
+import { MotionTransition } from "./transition-component";
 import { socialNetworks } from "@/data";
 
 const Header = () => {

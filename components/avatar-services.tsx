@@ -1,4 +1,4 @@
-import MotionTransition from "./transition-component";
+import { MotionTransition } from "./transition-component";
 import Image from "next/image";
 
 export default function AvatarServices() {
