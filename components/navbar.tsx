@@ -13,7 +13,7 @@ const Navbar = () => {
       className="fixed z-40 flex flex-col items-center justify-center w-full mt-auto h-max bottom-10"
     >
       <nav>
-        <div className="flex items-center justify-center gap-2 px-4 py-1 bg-white/15 rounded-full backdrop-blur-sm">
+        <div className="flex items-center justify-center gap-2 px-2 sm:py-0 md:py-3 md:px-auto bg-white/15 rounded-full backdrop-blur-sm ">
           {itemsNavbar.map((item) => (
             <div
               key={item.id}
